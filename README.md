@@ -15,8 +15,8 @@ An interactive, single-file science page about Hong Kong's seagrass beds — tol
 
 ## Technical notes
 
-- One file: `index.html`. No build step, no framework, no external assets, no network requests.
-- All illustrations, icons and the map are hand-drawn SVG — no stock photography, so there are no licensing questions.
+- Single page: `index.html` plus a folder of photographs in `assets/`. No build step, no framework, no network requests at runtime.
+- Photographs are CC-licensed works from Wikimedia Commons and Flickr, resized and cropped for the page. Every image is credited in the footer with its author, licence and a link to the original — please keep that block if you reuse this page.
 - The map is a deliberately schematic diagram (not to scale, not a navigational map), labelled as such on the page.
 - Pledge state is stored in `localStorage`; nothing leaves the browser.
 
@@ -27,6 +27,10 @@ An interactive, single-file science page about Hong Kong's seagrass beds — tol
 - [HKU Knowledge Exchange — seagrass research](https://www.ke.hku.hk/story/innovation/seagrasses)
 
 Content is a simplified summary for educational use. Figures in the calculator are illustrative estimates, not field measurements.
+
+## Image credits
+
+Fourteen CC-licensed photographs, credited in full in the page footer. Non-commercial educational use only — check each licence (some are BY-NC / BY-NC-SA) before reusing them commercially.
 
 ## Run locally
 
